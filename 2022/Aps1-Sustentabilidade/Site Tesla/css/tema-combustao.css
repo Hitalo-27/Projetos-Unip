@@ -1,0 +1,5 @@
+#text-site p {
+    color: black;
+    font-family: var(--font-text-site);
+    font-size: 17px;
+}

@@ -1,0 +1,7 @@
+#textarea-question {
+    max-width: 1140px;
+    width: 100%;
+    height: 8em;
+    vertical-align: top;
+    resize: vertical;
+}

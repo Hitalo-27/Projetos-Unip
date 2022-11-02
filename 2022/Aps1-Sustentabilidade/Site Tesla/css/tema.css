@@ -1,0 +1,28 @@
+.painel-car {
+    background-color: black;
+    height: auto;
+    color: #fff;
+}
+
+.painel-car img {
+    width: 100%;
+    height: 700px;
+}
+
+#text-site p {
+    color: black;
+    font-family: var(--font-text-site);
+    font-size: 17px;
+}
+
+.card-body li {
+    font-family: var(--font-text-site);
+    font-size: 17px;
+}
+
+@media screen and (min-width: 1600px) {
+    .painel-car img {
+        width: 100%;
+        height: 900px;
+    }    
+}
