@@ -9,7 +9,7 @@ alphabet2 = '9876543210 ,.?çéãõáâàêèóòô!@#$%¨&*()-_+=°zyxwvutsrqpo
 
 # Criptografar
 def encrypt(message, key):
-    key = key.isdigit()
+    key = int(key)
     if key:
         message = message.lower()
         caracter = ''
@@ -27,7 +27,7 @@ def encrypt(message, key):
 
 # Desencriptografar
 def decrypt(message, key):
-    key = key.isdigit()
+    key = int(key)
     if key:
         message = message.lower()
         caracter = ''
