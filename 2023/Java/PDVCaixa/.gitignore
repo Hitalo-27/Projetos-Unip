@@ -1,0 +1,60 @@
+# Arquivos compilados pelo Java
+*.class
+
+# Logs
+*.log
+
+# Diretório gerado pelo Eclipse
+bin/
+
+# Arquivos de configuração do Eclipse
+.settings/
+.classpath
+.project
+
+# Diretório de saída padrão do IntelliJ IDEA
+out/
+
+# Diretório de saída padrão do NetBeans
+build/
+
+# Arquivos do Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+
+# Arquivos de cache do Maven
+.mvn/
+.m2/
+
+# Arquivos de configuração do Gradle
+.gradle/
+build/
+
+# Diretório de saída padrão do Ant
+out/
+
+# Diretório de saída padrão do Javadoc
+javadoc/
+
+# Diretório gerado pelo BlueJ
+.bluej/
+
+# Diretório temporário do Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Pacotes e arquivos de distribuição
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Arquivos de log do HotSpot VM
+hs_err_pid*
+replay_pid*
